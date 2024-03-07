@@ -1,0 +1,80 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "The name displayed in the server browser.",
+        "Keywords": "server,name",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "AMP Motor Town Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Message",
+        "Category": "Server Settings",
+        "Description": "Popup message that appears when joining the server.",
+        "Keywords": "server,message",
+        "FieldName": "ServerMessage",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerMessage",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "AMP Powered Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "The maximum amount of players allowed on the server.",
+        "Keywords": "max,players",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "10",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Vehicle Per Player",
+        "Category": "Server Settings",
+        "Description": "The maximum amount of vehicles allowed per player.",
+        "Keywords": "max,vehicle,per,player",
+        "FieldName": "MaxVehiclePerPlayer",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxVehiclePerPlayer",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "5",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Housing Plot Rental Days",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "max,housing,plot,rental,days",
+        "FieldName": "MaxHousingPlotRentalDays",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxHousingPlotRentalDays",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "7",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Housing Plot Rental Price Ratio",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "housing,plot,rental,price,ratio",
+        "FieldName": "HousingPlotRentalPriceRatio",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "HousingPlotRentalPriceRatio",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "0.1",
+        "EnumValues": {}
+    }
+]
